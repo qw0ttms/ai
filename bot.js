@@ -7,7 +7,7 @@ const client = new Client({ intents: [GatewayIntentBits.Guilds, GatewayIntentBit
 const { inspect } = require('util');
 const {Configuration , OpenAIApi} = require('openai')
 const conf = new Configuration({
-  apiKey: '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'
+  apiKey: ''
 })
 const openai = new OpenAIApi(conf)
 process.on("unhandledRejection", (reason, promise) => {
